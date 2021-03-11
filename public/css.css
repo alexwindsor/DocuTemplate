@@ -1,0 +1,26 @@
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#left_col {
+  width: 25vw;
+  height: 100vh;
+}
+
+#right_col {
+  width: 72vw;
+  height: 100vh;
+  float:right;
+}
+
+.column {
+  display: inline-block;
+  overflow-y: scroll;
+  padding: 1%;
+}
+
+.section {
+  display: block;
+  padding: 1px;
+}
